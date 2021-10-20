@@ -6,21 +6,21 @@ The `SLICOT System Identification Toolbox ` (`SLICOT-SystemIdentification`) incl
 
 The main functionalities of the toolbox include:
 
-    * identification of linear discrete-time state space systems (A, B, C, D)
-    * identification of state and output (cross-)covariance matrices for such systems
-    * estimation of the associated Kalman gain matrix
-    * estimation of the initial state
-    * conversion from/to a state-space representation to/from the output normal form parameterization
-    * identification of discrete-time Wiener systems
-    * computation of the output response of Wiener systems.
+* identification of linear discrete-time state space systems (A, B, C, D)
+* identification of state and output (cross-)covariance matrices for such systems
+* estimation of the associated Kalman gain matrix
+* estimation of the initial state
+* conversion from/to a state-space representation to/from the output normal form parameterization
+* identification of discrete-time Wiener systems
+* computation of the output response of Wiener systems.
 
 The toolbox main features are:
 
-    * computational reliability
-    * high numerical efficiency, using structure exploiting algorithms and dedicated linear algebra tools
-    * possible speed-up factors larger then 10 in comparison with the commonly used software tools flexibility and easy-of-use
-    * ability to process multiple (possibly connected) data batches
-    * standardized interfaces
+* computational reliability
+* high numerical efficiency, using structure exploiting algorithms and dedicated linear algebra tools
+* possible speed-up factors larger then 10 in comparison with the commonly used software tools flexibility and easy-of-use
+* ability to process multiple (possibly connected) data batches
+* standardized interfaces
 
 The programs have been extensively tested on various test examples and are fully documented.
 
