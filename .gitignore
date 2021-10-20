@@ -1,0 +1,14 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# ignore all test scripts
+test*.m
+test*.mlx
+# ignore word docs
+*.docx
+# ignore backup files
+*.asv
+*.bak
+*.sav
+# ignore some files under development
+/test
+/docs
