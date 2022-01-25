@@ -7,6 +7,7 @@ function makemex
 %
 flags = 'FFLAGS="$FFLAGS -fPIC -fno-omit-frame-pointer -fdefault-integer-8" -largeArrayDims';
 slident_mex_src = '';
+xerbla    = 'xerbla.f';
 libslicot = '../slicot.a';
 slident_mex = {
     'findBD.f',  ...
@@ -22,6 +23,6 @@ slident_mex = {
 %
 for k = 1:length(slident_mex)
     file = slident_mex{k};
-    fprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slident_mex_src, file, libslicot );
-    %eval( sprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slident_mex_src, file, libslicot ) );
+    fprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slident_mex_src, file, xerbla, libslicot );
+    eval( sprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slident_mex_src, xerbla, file, libslicot ) );
 end
