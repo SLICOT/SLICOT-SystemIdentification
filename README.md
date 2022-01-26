@@ -24,8 +24,6 @@ The toolbox main features are:
 
 The programs have been extensively tested on various test examples and are fully documented.
 
-The current release of `SLICOT-SystemIdentification` is version 1.0, dated November 1, 2021.
-
 ## Requirements
 
 The codes have been tested with MATLAB 2015b through 2021b. To use the functions, the Control System Toolbox must be installed in MATLAB running under 64-bit Windows 7, 8, 8.1 or 10.  
