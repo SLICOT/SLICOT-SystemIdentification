@@ -36,6 +36,6 @@ The codes have been tested with MATLAB 2015b through 2021b. To use the functions
 
 Please cite `SLICOT-SystemIdentification` using at least one of the following references: 
 
-* P. Benner, D. Kressner, V, Sima, and A. Varga, [The SLICOT Toolboxes - a Survey](https://github.com/SLICOT/SLICOT-Reports/SLWN2009-1.pdf), _SLICOT Working Note 2009-1, August 2009._
+* P. Benner, D. Kressner, V, Sima, and A. Varga, [The SLICOT Toolboxes - a Survey](https://github.com/SLICOT/SLICOT-Reports/blob/main/SLWN2009-1.pdf), _SLICOT Working Note 2009-1, August 2009._
 * P. Benner, D. Kressner, V. Sima, A. Varga, Die SLICOT-Toolboxen für Matlab - The SLICOT Toolboxes for Matlab (in German), _at – Automatisierungstechnik, 58 (2010)._
 
